@@ -1,0 +1,113 @@
+/*
+indexstyle.css
+pour googlepage
+*/
+
+body
+{
+	font-family: arial,sans-serif;
+  font-size: 13px;
+
+.border-flex {
+  border: 2px solid red;
+  margin: 2px;
+  padding: 2px;
+}
+
+
+input
+{
+  border-radius: 10px;
+}
+
+
+
+
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+
+
+
+#main {
+}
+
+#footer {
+  background-color: grey;
+  color: white;
+}
+
+.border-flex {
+  border: 2px solid red;
+}
+
+#nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 20px;
+  margin: 10px;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+
+}
+
+#toplogosectionmain {
+
+}
+
+
+#searchmodesection {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+#bottombox {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 100%;
+  background-color: grey;
+}
+
+
+
+#linksectionfooter {
+  display: flex-inline;
+  flex-direction: row;
+  width: 100%;
+  height: 60px;
+}
+
+#linksectionleft {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
+  height: 30px;
+  background-color: grey;
+}
+
+#linksectionright {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
+  height: 30px;
+  background-color: grey;
+}
+
